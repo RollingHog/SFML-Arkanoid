@@ -4,3 +4,6 @@
 *.rar
 *.dll
 *.exe
+
+sum.txt
+oldsum.txt
