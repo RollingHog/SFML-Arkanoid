@@ -267,7 +267,7 @@ void drawall(bool isMenuOpened, bool isHelpOpened, bool isInserting, bool isSymm
         winSprite.setPosition(0,0);
         winSprite.setScale(window.getSize().x/winSprite.getLocalBounds().width, window.getSize().y/winSprite.getLocalBounds().height);
 
-        hintText.setColor(sf::Color::White);
+        hintText.setColor(sf::Color::Black);
         //hint text image and position regenerates every call
         highScoreText.setColor(sf::Color::Black);
         highScoreText.setOrigin(highScoreText.getGlobalBounds().width/2, highScoreText.getGlobalBounds().height/2);
